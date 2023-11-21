@@ -1,25 +1,15 @@
-# Template for Testing Web project
+# Exemple d'interaction avec un graphique en SVG
 
-Template de template devant servir de base aux repository proposant le testing en web
+## Prérequis
+- récupérer un fichier SVG de l'image dont on a besoin sur internet
+  - par exemple, [cette image](https://commons.wikimedia.org/wiki/File:BlankMap-World.svg) de la carte du monde
+  - ou créer son propre fichier SVG avec un logiciel de dessin vectoriel
 
-Pour l'auto grading la commande à insérer est 
-```
-npm test
-```
-Si il n'y a pas de JS
-```
-npm run testhtml
-```
+## Objectif
+- afficher l'image SVG dans une page web
+- ajouter des interactions avec l'image SVG
+  - par exemple, afficher le nom du pays survolé par la souris
+  - en faire un petit jeu
+  - etc...
 
-Installation des packages (non nécessaire pour les push sur git)
-```
-npm install
-```
-
-Ensemble des packages
-```
-npm install jest
-npm init @eslint/config
-npm install documentation
-npm install html-validator
-```
+Le code js est commenté pour expliquer les différentes étapes.
